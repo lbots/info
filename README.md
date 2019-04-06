@@ -73,3 +73,8 @@ The eval command could f.e. allow people to change the bot's avatar, name, game 
 That's why you should keep the Eval-command for yourself only and not have it public. This also applies for any other command that might change the bot in a way you don't want other people be able to do, like a shutdown/reboot command.
 
 If you really want people to use the eval command to for example, evaluate math expressions, restrict it so that potential harmfull code can't be run by normal users.
+
+## Additional Links
+- Discord's Developer-Panel: https://discordapp.com/developers
+- LBots website: https://lbots.org
+- Best practices for Discord Bots: https://github.com/meew0/discord-bot-best-practices
