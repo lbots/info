@@ -68,7 +68,7 @@ If your bot does one or even all of those listed things, remove it since it only
 
 ### Open Eval/Dev only commands
 Having an Eval-command is (almost) a essential part of a dev. The eval-command allows them to test/run parts of code to see what the output could be.  
-But this can also be a potential thread, when it isn't secured properly.  
+But this can also be a potential threat, when it isn't secured properly.  
 The eval command could f.e. allow people to change the bot's avatar, name, game or even shut it down completely. This is annoying and just makes things worse.  
 That's why you should keep the Eval-command for yourself only and not have it public. This also applies for any other command that might change the bot in a way you don't want other people be able to do, like a shutdown/reboot command.
 
