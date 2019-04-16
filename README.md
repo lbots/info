@@ -1,8 +1,8 @@
 [LBots]: https://lbots.org
 [Discord]: https://discord.gg/EKv9k6p
 
-[Bots.md]: /lbots/info/common_issues/bots.md
-[Discord.md]: /lbots/info/common_issues/discord.md
+[Bots.md]: /common_issues/bots.md
+[Discord.md]: /common_issues/discord.md
 
 [Discord Developer-Panel]: https://discordapp.com/developers
 
