@@ -70,12 +70,26 @@ But not every library has that, or the developer isn't aware of it.
 
 Please make sure your bot respects the ratelimit of Discord, so that they don't have to block or even ban your bot's IP-adress from their API.
 
-There are also certain methods many people do and that is considered API-Abuse:
-- Disco-Roles: Roles that have fast-changing colours. That shouldn't exist.
-- Mass-DM: Sending a DM to every member of a Guild. That shouldn't be done.
-- Fast Status-Refresh: Updating the Bot's Game-Status way too fast. It should only update 5 times per minute.
+#### What can be seen as API-abuse?
+There are a lot of things that can be seen as API-abuse. The general rule is that if it exceeds the ratelimit it is counted as API-abuse.  
+Here are some of the most commonly known cases of API-abuse (which not always cause rate-limits):
 
-If your bot does one or even all of those listed things, remove it since it only creates the risk of your Bot's IP being banned from Discord's API (And it will also most likely make your bot being denied from any professional Bot-list).
+##### Disco-Roles
+"Disco-Roles" (Also known as Rainbow-Roles) are roles the bot updates the colour of all the time in a fast manner.  
+This is API-abuse in that it causes a lot of Role-Updates and therefor a lot of Audit-Log entries.
+
+This is in most if not all botlists a reason for an instant-deny.
+
+##### Sending DMs to all members of a Guild (Mass-DM)
+Sending every member of a Guild or even all Members the bot knows a DM is considered Mass-DM and is not allowed.  
+Only send a DM to a user if they clearly asked for it (e.g. executed a Command).
+
+##### Fast Status-Refresh
+Discord allows your bot to update their Playing-Status quite often. However this doesn't mean you can update the status of your bot every 2 seconds.  
+You're allowed to update the Status of your bot **5 times per minute** (Every 12 seconds). Everything above that is considered abuse.
+
+#### What could happen to you and your bot?
+If your bot does one or even all of those listed things, remove those since it only creates the risk of your Bot's IP being banned from Discord's API (And it will also most likely make your bot being denied from any professional Bot-list).
 
 ### Open Eval/Dev only commands
 Having an Eval-command is (almost) a essential part of a dev. The eval-command allows them to test/run parts of code to see what the output could be, without the need of adding that code to the bot, compile it, restart the bot and test it.  
