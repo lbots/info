@@ -2,9 +2,32 @@
 [Discord]: https://discord.gg/EKv9k6p
 
 [Discord Developer Panel]: https://discordapp.com/developers
+[ToS]: https://discordapp.com/terms
+[Guidelines]: https://discordapp.com/guidelines
 
 [Best Practices for Discord Bots]: https://github.com/meew0/discord-bot-best-practices
 
+# Approval
+LBots won't accept a submitted bot when it doesn't fulfill these requirements.  
+This section will list our requirements, what they mean and what you have to do in order to fulfill those requirements.
+This is not an exhausted list. There may be other reasons for denial.
+
+## What gets your bot denied?
+The following cases can cause your bot to get denied.
+- Posting NSFW content in non-NSFW channels.
+- ANY kind of clones from existing bots, including modified RedBot-clones.
+- Spam messages and/or advertise any kind of site, service, Discord or similar.
+  - Advertisement: Any kind of sharing/sending links without the consent of the recipient.
+  - Spam: The fast, continous sending of multiple messages that may or may not be the exact same and can cause your bot to be ratelimited by Discord.
+- Usage of multiple different code-snippeds. E.g. one command sends an embed with image, another just uploads the image.
+- Bot is offline for an extended amount of time (multiple days).
+  - If your bot is offline due to technical issues, let a staff-member know about that.
+- You (The owner or co-owner) aren't in our Discord.
+  - Your bot may be removed when you leave our Discord.
+- Bot isn't hosted 24/7 or run on (known) bad sites like Glitch or Heroku.
+- **Any violation of the [Discord ToS][ToS] and/or [Community Guidelines][Guidelines]**
+
+----
 # Common issues
 This are common issues most users come accross when they either make a bot, or make a own Discord Server.  
 The goal of this file is to provide ideas and solution on how to fix and/or prevent those issues.
